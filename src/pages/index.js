@@ -43,6 +43,7 @@ const Paragraph = styled.p`
     text-align: center;
     color: rgb(100, 100, 100);
     font-weight: 500;
+    letter-spacing: 1px;
 `
 const Option = styled.a`
     border-style: solid;
@@ -51,6 +52,8 @@ const Option = styled.a`
     border-radius: ${props => props.left ? '15px 0px 0px 15px' : '0px 15px 15px 0px'};
     border-width: 1px;
     border-color: rgb(100, 100, 100)
+    font-weight: bold;
+    margin-top: 2rem;
 
     
 `
