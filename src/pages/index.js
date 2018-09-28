@@ -9,6 +9,7 @@ const Flex = styled.div`
     align-items: center;
     justify-content: center;
     font-family: "PT Sans Caption", sans-serif;
+    flex-shrink: 1;
 `
 
 const FlexButton = styled.div`
@@ -28,7 +29,9 @@ const Exclusive = styled.h4`
     padding: 5px 10px;
     border-radius: 50px;
     font-weight: normal;
-    margin-top: 3rem;
+    margin-top: 50px;
+    margin-bottom: 5px;
+
     
 `
 
@@ -46,15 +49,17 @@ const Paragraph = styled.p`
     letter-spacing: 1px;
 `
 const Option = styled.a`
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: ${props => props.left ? '0px' : '1px'};
     border-style: solid;
+    border-color: grey;
     padding: 10px
     background-color: transparent;
     border-radius: ${props => props.left ? '15px 0px 0px 15px' : '0px 15px 15px 0px'};
-    border-width: 1px;
-    border-color: rgb(100, 100, 100)
     font-weight: bold;
     margin-top: 2rem;
-
     
 `
 
