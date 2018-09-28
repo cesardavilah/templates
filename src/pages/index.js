@@ -31,8 +31,7 @@ const Exclusive = styled.h4`
     font-weight: normal;
     margin-top: 50px;
     margin-bottom: 5px;
-
-    
+    letter-spacing: 1px;   
 `
 
 const Phrase = styled.h1`
@@ -47,6 +46,7 @@ const Paragraph = styled.p`
     color: rgb(100, 100, 100);
     font-weight: 500;
     letter-spacing: 1px;
+    line-height: 1.4;
 `
 const Option = styled.a`
     border-top: 1px;
